@@ -1,24 +1,39 @@
-# ThyroCare
+## 🦋 ThyroCare — Онлайн-скрининг здоровья щитовидной железы
 
-## Open the standalone site
+ThyroCare — это современный информационный веб-сервис для быстрой и понятной оценки симптомов, индекса массы тела (ИМТ) и возможных рисков развития нарушений функций щитовидной железы (гипотиреоза и гипертиреоза). Проект опирается на принципы доказательной медицины и предлагает пользователю пройти комплексный интерактивный тест всего за 3–4 минуты.
 
-Open `ThyroCare.html` in a modern browser. This file is bundled and does not need a local development server.
+⚠️ **Дисклеймер:** Данное приложение носит исключительно образовательный и информационный характер. Оно не заменяет полноценную консультацию врача-эндокринолога, инструментальную диагностику (УЗИ) или лабораторные анализы (ТТГ, Т4 св., Т3).
 
-## Run the source project
+---
 
-Install Node.js, open a terminal in this folder, then run:
+## 🛠 Технологический стек
 
-```bash
-npm install
-npm run dev
-```
+Проект разработан с использованием актуального стека веб-разработки:
 
-Open the local URL printed by Vite, usually `http://localhost:5173`.
+* **Фреймворк:** React 19
 
-To rebuild the standalone file after editing the app:
 
-```bash
-npm run build
-```
+* **Язык:** TypeScript
 
-The generated standalone page is `dist/index.html`.
+
+* **Сборщик:** Vite 7 (с плагином `vite-plugin-singlefile` для сборки в единый HTML-файл)
+
+
+* **Стилизация:** Tailwind CSS v4
+
+
+* **Графика и иконки:** Встроенные SVG-компоненты и кастомные визуализации
+
+---
+
+## 🚀 Быстрый запуск и разработка
+
+### Требования
+
+* Node.js (версии 20 или 22+)
+
+
+* npm или pnpm
+
+
+🌐 **Демонстрация работы сайта:** `thyrocare.app` *(только здесь будет по другому)*
